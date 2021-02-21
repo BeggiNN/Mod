@@ -1,0 +1,9 @@
+<?php
+/** @var \Perspective\TutorialEntity\Block\EntityResource|Perspective\TutorialEntity\Block\EntityRepository $block */
+?>
+<?php
+$id = 276;
+$_product = $block->getProductById($id);
+echo $block->getImageOriginalWidth($_product, 'product_small_image') . '<br />';
+echo $block->getImageOriginalHeight($_product, 'product_small_image') . '<br />';
+?>
